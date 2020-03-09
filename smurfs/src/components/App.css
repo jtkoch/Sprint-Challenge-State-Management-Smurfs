@@ -1,3 +1,61 @@
 .App {
   text-align: center;
 }
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+h1:hover, .home:hover, .add:hover {
+  color: rgba(15, 73, 128, 0.781);
+  transition: .5s;
+}
+
+form {
+  text-align: center;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.home, .add {
+  text-decoration: none;
+  color: white;
+}
+
+.info {
+  color: white;
+}
+
+* {
+  background: rgb(104, 151, 156);
+}
+
+button {
+  background: white;
+  border: 1px solid black;
+  border-radius: 25px;
+  color: black;
+}
+
+button:hover {
+  border: 1px solid blue;
+  color: blue;
+  transition: 3s;
+  box-shadow: 0px 0px 2px;
+}
+
+form {
+  color: white;
+  padding: 10px;
+}
+
+input {
+  padding: 5px;
+  background-color: white;
+  margin: 10px;
+}
